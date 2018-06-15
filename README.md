@@ -1,0 +1,3 @@
+- install this chrome extension
+- go to this web page https://t4x.crusadertrav.eu/dorf1.php, https://t4x.crusadertrav.eu/dorf2.php
+- ENJOY!
