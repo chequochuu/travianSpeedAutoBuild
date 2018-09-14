@@ -1,6 +1,6 @@
 
 async function clickPlanet() {
-    var id = ["25", "29", "33"];
+    var ids = ["25", "29", "33"];
     var t = document.getElementsByClassName("dropdown")[0].options;
     var i;
     var shoulddel = false;
