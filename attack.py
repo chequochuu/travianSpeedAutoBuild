@@ -3,28 +3,28 @@ import re
 from tqdm import tqdm
 from multiprocessing import Pool
 def fuckserver(x):
-## -----------------------------------------------
-
+    ## -----------------------------------------------
     url = "http://tx4.crusadertrav.eu/a2b.php"
 
-    payload = "t1=&t7=&t2=&t3=1&t6=&t11=&x=9&y=2&c=4&s1=ok"
+    payload = "t7=&t2=&t8=600&t3=&t6=&x=4&y=-2&c=3&s1=ok"
     headers = {
         'accept': "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         'accept-encoding': "gzip, deflate",
         'accept-language': "en-US,en;q=0.5",
         'connection': "keep-alive",
-        'content-length': "43",
+        'content-length': "41",
         'content-type': "application/x-www-form-urlencoded",
-        'cookie': "__cfduid=d557279a346e75bd97ae56809a703654a1536491851; t4level=1; lang=en; builder=Off; PHPSESSID=dtcr129co8m699c4f6s3higc06; mapId1=%7B%22grid%22%3Atrue%7D; highlightsToggle=true; WMBlueprints=%5B%5D",
+        'cookie': "__cfduid=d557279a346e75bd97ae56809a703654a1536491851; t4level=1; box=1; lang=en; builder=Off; PHPSESSID=dtcr129co8m699c4f6s3higc06; mapId1=%7B%22grid%22%3Atrue%7D; highlightsToggle=true; travian_toggle=hero%3Acollapsed; WMBlueprints=%5B%5D",
         'host': "tx4.crusadertrav.eu",
-        'referer': "http://tx4.crusadertrav.eu/a2b.php?z=19808",
+        'referer': "http://tx4.crusadertrav.eu/a2b.php?z=20607",
         'upgrade-insecure-requests': "1",
         'user-agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
         'Cache-Control': "no-cache",
-        'Postman-Token': "f7704498-1db6-4ad5-8525-f4883177e216"
+        'Postman-Token': "aee4697f-866f-45ef-b6e4-65d9cae32422"
         }
 
     response = requests.request("POST", url, data=payload, headers=headers)
+
 
 ##-----------------------------------------------------
 

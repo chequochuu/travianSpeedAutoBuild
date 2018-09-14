@@ -8,28 +8,8 @@
   },
   "content_scripts": [
       {
-          "matches": ["http://tx4.crusadertrav.eu/build.php?id=27"],
-          "js": ["barracks.js"]
-      }
-      ,
-      {
-          "matches": ["http://tx4.crusadertrav.eu/build.php?id=34"],
-          "js": ["stables.js"]
-      }
-      ,
-      {
-          "matches": ["http://tx4.crusadertrav.eu/dorf1.php*"],
-          "js": ["content_script.js"]
-      }
-      ,
-      {
-          "matches": ["http://tx4.crusadertrav.eu/build.php?id*"],
-          "exclude_matches" : ["http://tx4.crusadertrav.eu/build.php?id=27","http://tx4.crusadertrav.eu/build.php?id=34"],
-          "js": ["content_script2.js"]
-      },
-      {
-          "matches": ["http://tx4.crusadertrav.eu/dorf2.php*"],
-          "js": ["dorf2.js"]
+          "matches": ["http://tx4.crusadertrav.eu/build.php?id=26", "http://tx4.crusadertrav.eu/build.php?gid=15"],
+          "js": ["destroy.js"]
       }
   ],
 

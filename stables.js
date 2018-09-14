@@ -3,7 +3,8 @@ function sleep(ms) {
 }
 
 async function trainImperian() {
-        await sleep(189000);
+        console.log('ffff');
+        await sleep(23000);
         var t = document.getElementsByClassName("details")[2];
         t.children[5].click();
         var t2 = document.getElementsByClassName("button-content")[0];
